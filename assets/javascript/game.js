@@ -15,9 +15,11 @@ $(document).on("click", "img", function() {
     if (currentScore == targetNumber) {
         win++;
         resetStart();
+        alert("you won this round!")
     } else if (currentScore > targetNumber) {
         loss++;
         resetStart();
+        alert("you lost this round")
     } 
 });
 
