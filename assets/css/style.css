@@ -23,7 +23,6 @@ header {
     margin-left: 15px;
     background-color: beige;
     padding: 5px;
-    height: 450px;
     line-height: 1.5;
     font-size: 17px;
     font-weight: bold;
@@ -35,6 +34,7 @@ header {
     clear: left;
     margin-left: 15px;
 }
+ 
 
 #red,
 #purple,
@@ -42,6 +42,14 @@ header {
 #clear {
     background-color: white;
     margin-right: 5px;
+    
+}
+
+#red:hover, 
+#purple:hover,
+#green:hover,
+#clear:hover {
+    background-color: lightgrey;
 }
 
 #number-to-guess {
